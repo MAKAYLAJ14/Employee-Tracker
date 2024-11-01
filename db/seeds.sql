@@ -1,11 +1,10 @@
 -- Insert departments first
 INSERT INTO departments (name)
 VALUES ('Front Office'),
-       ('Math'),
-       ('English'),
-       ('Art'),
-       ('History'),
-       ('Science');
+       ('Education'),
+       ('Athletic'),
+       ('Mental Health')
+       ('Health');
 
 -- Insert roles next
 INSERT INTO roles (title, salary, department)
@@ -13,11 +12,11 @@ VALUES ('Principle', 130000, 1),
        ('Assistant Principle', 120000, 1),
        ('Superintendent', 80000, 1),
        ('Teacher', 50000, 2), 
-       ('Nurse', 60000, 1),
-       ('Athletic Director', 90000, 1),
-       ('Counselor', 48000, 1),
+       ('Nurse', 60000, 5),
+       ('Athletic Director', 90000, 3),
+       ('Counselor', 48000, 4),
        ('Substitute Teacher', 30000, 2),  
-       ('Librarian', 60000, 1),
+       ('Librarian', 60000, 2),
        ('Teachers Assistant', 20000, 2);  
 
 -- Finally, insert employees
