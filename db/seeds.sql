@@ -3,7 +3,7 @@ INSERT INTO departments (name)
 VALUES ('Front Office'),
        ('Education'),
        ('Athletic'),
-       ('Mental Health')
+       ('MentalHealth')
        ('Health');
 
 -- Insert roles next
